@@ -1,0 +1,180 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Arekta Agency</title>
+  <style>
+    *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body{
+    font-size: 20px;
+    overflow-x: hidden;
+  }
+  header{
+    background-image:  url('images/Space-1.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+  } 
+  .clearfix:after{
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear: both;
+  }
+  .row{
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+  .logo{
+    height: 80px;
+    width: auto;
+    float: left;
+    margin-top: 10px;
+  }
+  .logo2{
+    height: 80px;
+    width: auto;
+    float: left;
+    margin-top: 10px;
+   
+  }
+  #logo3{
+    -webkit-animation: action 1s infinite  alternate;
+        animation: action 1s infinite  alternate;
+  }
+  @-webkit-keyframes action {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-10px); }
+    }
+    @keyframes action {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-10px); }
+    }
+  .main-nav{
+    float: right;
+    margin-top: 17px;
+  }
+  .main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    color: #FFBA00;
+  }
+  .main-nav li a{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+    font-size: 90%;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    color: #FFBA00;
+    font-weight: 100px;
+  }
+  .main-nav li a:hover{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    color: white;
+    border-bottom: 2px solid white;
+  }
+  .main-content-header{
+    width: 1180px;
+    position: absolute;
+    top: 40%;
+    left:50%;
+    transform: translate(-50%, -20%);
+  }
+  h1{
+    
+    font-size: 240%;
+    margin-bottom: 10px;
+  }
+/* developed by MD NAYEEM HOSSAIN*/
+ /* media queriw and responsive*/
+
+
+ @media only screen and (max-width: 1180px){
+  .main-content-header{
+    width: 100%;
+    padding: 0 2%;
+  }
+  .logo{
+    height: 80px;
+    width: auto;
+    float: left;
+    margin-top: 10px;
+    padding: 0 2%;
+  }
+ }
+
+ @media only screen and (max-width: 998px){
+  h1{font-size: 200%;}
+  }
+
+  @media only screen and (max-width: 768px){
+  h1{font-size: 180%;}
+  .main-nav{
+    display: none;
+  }
+
+}
+  
+
+@media only screen and (max-width: 480px){
+  h1{font-size: 160%;}
+
+}
+  
+ 
+  </style>
+  </head>
+  <body>
+    <header>
+      <nav class="row clearfix">
+        <div>
+          <a href="index.html"><img src="images/Cover Photo-01.png" class="logo"></a>
+       
+        <ul class="main-nav animated slideInDown" id="check-class">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Our Work</a></li>
+          <li><a href="#">Client</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Why Us!</a></li>
+        </ul>
+      </div>
+      </nav>
+<div  class="main-content-header">
+      <h1>
+        <p style="color:#FFBA00;font-size:18px">WELCOME TO</p><span style="font-family:lobster; color: white;font-size:50px">Arekta Agency!</span><br>
+      </h1>
+      <div id="logo3">
+      <img src="images/project.png" class="logo2" >
+    </div>
+    </div>
+    </header>
+  
+
+    <section id="our Work">
+
+
+    </section>
+
+
+    
+    
+  </body>
+  </html>
